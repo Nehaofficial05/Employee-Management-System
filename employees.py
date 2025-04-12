@@ -8,7 +8,7 @@ def open_employee_window():
     win.geometry("900x500")
     win.config(bg='#F5F5F5')  # Light gray background for the window
 
-    # Treeview Styling
+    # Treeview Styling`p ` 
     style = ttk.Style()
     style.configure("Treeview",
                     background="#FFFFFF",  # White background for rows
