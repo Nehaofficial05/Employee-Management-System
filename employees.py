@@ -65,6 +65,7 @@ def open_employee_window():
             cursor.close()
             db.close()
 
+
     def insert_employee():
         fname = first_name_entry.get()
         lname = last_name_entry.get()

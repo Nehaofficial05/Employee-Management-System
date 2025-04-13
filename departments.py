@@ -40,6 +40,9 @@ def open_department_window():
             cursor.close()
             db.close()
 
+
+
+
     def insert_department():
         name = dept_entry.get()
         if name:
